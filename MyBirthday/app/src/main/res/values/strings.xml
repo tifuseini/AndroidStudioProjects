@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">My Birthday</string>
+    <string name="happy_birthday_tahiru">Happy Birthday Tahiru!</string>
+    <string name="form_sosa">Form SOSA</string>
+    <string name="todo">TODO</string>
 </resources>
