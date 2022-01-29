@@ -3,9 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.188" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.1" />
         <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/drawable/rroe.xml" value="0.2265" />
-        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/learner_title_row.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/font/bungeeregular.xml" value="0.20111214087117701" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/activity_am_home.xml" value="0.1" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/activity_intro.xml" value="0.19025224454895254" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/activity_learner_profile.xml" value="0.2" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/activity_pm_home.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/am.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/intro.xml" value="0.1788693234476367" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/learner_title_row.xml" value="0.1" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/pm.xml" value="0.1788693234476367" />
+        <entry key="..\:/Users/23350/AndroidStudioProjects/Bootcamp/app/src/main/res/layout/slide_item_container.xml" value="0.19067977768277042" />
       </map>
     </option>
   </component>

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">bootcampLearner</string>
+    <string name="next">Next</string>
+    <string name="skip_intro">SKIP INTRO</string>
+    <string name="name">Tahiru Iddrisu</string>
+    <string name="email_gmail_com">tifuseini@st.ug.edu.gh</string>
+    <string name="_123">123</string>
+    <string name="projects_on_github">Projects on Github</string>
+    <string name="gender">Gender</string>
+    <string name="profession">Profession</string>
+    <string name="update">UPDATE</string>
+    <string name="phone_number">Phone number</string>
+    <string name="title_text">Title Text</string>
+    <string name="description_text">Description Text</string>
 </resources>
