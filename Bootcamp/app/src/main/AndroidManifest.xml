@@ -12,12 +12,23 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
+        <activity
+            android:name=".profileActivity.LearnProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".am.AmHomeActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".pm.PmHomeActivity"-->
+<!--            android:parentActivityName=".MainActivity"-->
+<!--            android:exported="false" />-->
     </application>
 
 </manifest>

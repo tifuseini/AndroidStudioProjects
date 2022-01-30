@@ -42,7 +42,6 @@ class LearnersAdapter(
         holder.learnerClick.setOnClickListener {
             handleLearnerClick.onLearnerClick(position)
         }
-        Glide
 
 
 
