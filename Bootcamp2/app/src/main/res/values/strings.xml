@@ -4,4 +4,6 @@
     <string name="next">NEXT</string>
     <string name="description_text">Description Text</string>
     <string name="title_text">Title Text</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
 </resources>

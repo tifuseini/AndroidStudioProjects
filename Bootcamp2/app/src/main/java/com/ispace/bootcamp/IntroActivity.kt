@@ -1,8 +1,11 @@
 package com.ispace.bootcamp
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.view.ViewGroup
+import android.view.WindowInsets
+import android.view.WindowManager
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.LinearLayout
@@ -15,6 +18,7 @@ import com.ispace.bootcamp.slideShow.SlideShowSlides.slideShowAdapter
 
 class IntroActivity :  AppCompatActivity(){
 
+
     private lateinit var slideShowViewPager:ViewPager2
     private lateinit var btnNext :Button
 
@@ -25,8 +29,19 @@ class IntroActivity :  AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intro)
 
+        @Suppress("DEPRECATION")
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            window.insetsController?.hide(WindowInsets.Type.statusBars())
+        } else {
+            window.setFlags(
+                WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN
+            )
+        }
+
         slideShowViewPager = findViewById(R.id.slideShowViewPager)
         btnNext = findViewById(R.id.btnNext)
+        slideShowViewPager.adapter = slideShowAdapter
         textSkipIntro = findViewById(R.id.textSkipIntro)
         indicatorsContainer = findViewById(R.id.indicatorsContainer)
 
@@ -52,6 +67,11 @@ class IntroActivity :  AppCompatActivity(){
             }
         }
 
+        textSkipIntro.setOnClickListener {
+            Intent(applicationContext, MainActivity::class.java).also {
+                startActivity(it)
+            }
+        }
 
 
     }

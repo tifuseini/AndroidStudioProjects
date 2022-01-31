@@ -48,9 +48,6 @@
         android:overScrollMode="never"
         app:layout_constraintBottom_toTopOf="@+id/indicatorsContainer"
         app:layout_constraintTop_toTopOf="parent"
-
-
-
         />
 
 
