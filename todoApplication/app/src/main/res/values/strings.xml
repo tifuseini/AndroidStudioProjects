@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">todoApplication</string>
+    <string name="my_list">My List</string>
+    <string name="what_woud_you_like_to_do">What woud you like to do</string>
 </resources>
