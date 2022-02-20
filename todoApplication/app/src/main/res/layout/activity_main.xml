@@ -33,7 +33,7 @@
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:padding="20dp"
-        android:text="@string/what_woud_you_like_to_do"
+        android:text="@string/what_would_you_like_to_do"
         android:textSize="20sp" />
 
     <LinearLayout
@@ -63,8 +63,25 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/my_to_do_list"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:fontFamily="@font/amaranth" />
 
-
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="8dp"
+        android:choiceMode="multipleChoice" />
 
 
 </RelativeLayout>
