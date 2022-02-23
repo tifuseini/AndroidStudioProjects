@@ -8,7 +8,7 @@ import com.example.listmakernew.databinding.ListSelectionViewHolderBinding
 class ListSelectionRecyclerViewAdapter :
 RecyclerView.Adapter<ListSelectionViewHolder>(){
 
-    val listTitles = arrayOf("Tahiru","Fseini","Iddrisu")
+    val listTitles = arrayOf("Tahiru","Fuseini","Iddrisu")
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListSelectionViewHolder {
         val binding = ListSelectionViewHolderBinding.inflate(LayoutInflater.from(parent.context),parent,false)
